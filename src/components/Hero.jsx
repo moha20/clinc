@@ -1,5 +1,6 @@
 import React from 'react';
 import { Calendar, Phone } from 'lucide-react';
+import orthopedic from '../assets/orthopedic.jpg';
 
 const Hero = () => {
   return (
@@ -24,7 +25,7 @@ const Hero = () => {
         </div>
         <div className="hero-image fade-up" style={{transitionDelay: '0.2s'}}>
           <img 
-            src="../assets/orthopedic.jpg" 
+            src={orthopedic} 
             alt="Doctor consulting with a patient" 
           />
         </div>

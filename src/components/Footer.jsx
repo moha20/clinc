@@ -20,9 +20,9 @@ const Footer = () => {
         <div className="footer-contact fade-up" style={{ transitionDelay: '0.2s' }}>
           <h4>Contact Us</h4>
           <ul>
-            <li>+20 123 456 7890</li>
-            <li>contact@abdelbasstorthoclinic.com</li>
-            <li>123 Medical Center Ave, Suite 400</li>
+            <li>+20 1013210377</li>
+            <li>[EMAIL_ADDRESS]</li>
+            <li>El Gash, Al-Fashn City, Al-Fashn, Beni Suef Governorate 62511</li>
           </ul>
         </div>
       </div>

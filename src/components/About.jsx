@@ -17,7 +17,7 @@ const About = () => {
           <div className="about-text">
             <h3>Specialist in Orthopedic Surgery</h3>
             <p>
-              Dr. Mohamed Abdelbasst brings over 15 years of clinical experience in orthopedic surgery, focusing on minimally invasive techniques for joint replacement and sports injuries. 
+              Dr. Mohamed Abdelbasst brings over 8 years of clinical experience in orthopedic surgery, focusing on minimally invasive techniques for joint replacement and sports injuries. 
             </p>
             <p>
               He is dedicated to providing personalized care, ensuring each patient fully understands their condition and the most effective treatment options available. His approach blends advanced modern medicine with compassion.

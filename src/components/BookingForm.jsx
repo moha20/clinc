@@ -46,7 +46,7 @@ const BookingForm = () => {
                 value={formData.phone} 
                 onChange={handleChange} 
                 required 
-                placeholder="+20 123 456 7890" 
+                placeholder="+20 1013210377" 
               />
             </div>
             <div className="form-row">

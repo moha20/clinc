@@ -26,7 +26,7 @@ const SocialWidgets = () => {
 
       {/* Floating WhatsApp Widget */}
       <a 
-        href="https://wa.me/201234567890" 
+        href="https://wa.me/201013210377" 
         className="whatsapp-float" 
         target="_blank" 
         rel="noreferrer"

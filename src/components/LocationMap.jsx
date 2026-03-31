@@ -19,7 +19,7 @@ const LocationMap = () => {
               <div>
                 <strong>Address</strong>
                 <p>
-                  Army, Al-Fashn City, Al-Fashn, Beni Suef Governorate 62511
+                  El Gash, Al-Fashn City, Al-Fashn, Beni Suef Governorate 62511
                 </p>
               </div>
             </div>
