@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
         <div className="hero-image fade-up" style={{transitionDelay: '0.2s'}}>
           <img 
-            src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=800&q=80" 
+            src="../assets/orthopedic.jpg" 
             alt="Doctor consulting with a patient" 
           />
         </div>

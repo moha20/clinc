@@ -12,11 +12,11 @@ const SocialWidgets = () => {
             Stay updated with our latest healthcare tips, patient stories, and clinical announcements.
           </p>
           <div className="social-links fade-up" style={{ transitionDelay: '0.2s' }}>
-            <a href="https://facebook.com" target="_blank" rel="noreferrer" className="social-btn facebook">
+            <a href="https://www.facebook.com/share/1GrMRtMndj" target="_blank" rel="noreferrer" className="social-btn facebook">
               <FaFacebook size={24} />
               <span>Facebook</span>
             </a>
-            <a href="https://instagram.com" target="_blank" rel="noreferrer" className="social-btn instagram">
+            <a href="https://www.instagram.com/dr.mohamed.orthopedic.clinic" target="_blank" rel="noreferrer" className="social-btn instagram">
               <FaInstagram size={24} />
               <span>Instagram</span>
             </a>
