@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const BookingForm = () => {
+  const { t } = useTranslation();
   const [formData, setFormData] = useState({
     name: '',
     phone: '',
@@ -15,18 +17,18 @@ const BookingForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Booking request received! We will contact you shortly to confirm.');
+    alert(t('booking_alert'));
     setFormData({ name: '', phone: '', date: '', time: '', message: '' });
   };
 
   return (
     <section className="section bg-light" id="book">
       <div className="container">
-        <h2 className="section-title fade-up">Request an Appointment</h2>
+        <h2 className="section-title fade-up">{t('booking_title')}</h2>
         <div className="booking-form-wrapper fade-up">
           <form className="booking-form" onSubmit={handleSubmit}>
             <div className="form-group">
-              <label htmlFor="name">Full Name</label>
+              <label htmlFor="name">{t('booking_name')}</label>
               <input 
                 type="text" 
                 id="name" 
@@ -34,11 +36,11 @@ const BookingForm = () => {
                 value={formData.name} 
                 onChange={handleChange} 
                 required 
-                placeholder="John Doe" 
+                placeholder={t('booking_name_ph')} 
               />
             </div>
             <div className="form-group">
-              <label htmlFor="phone">Phone Number</label>
+              <label htmlFor="phone">{t('booking_phone')}</label>
               <input 
                 type="tel" 
                 id="phone" 
@@ -51,7 +53,7 @@ const BookingForm = () => {
             </div>
             <div className="form-row">
               <div className="form-group half">
-                <label htmlFor="date">Preferred Date</label>
+                <label htmlFor="date">{t('booking_date')}</label>
                 <input 
                   type="date" 
                   id="date" 
@@ -62,7 +64,7 @@ const BookingForm = () => {
                 />
               </div>
               <div className="form-group half">
-                <label htmlFor="time">Preferred Time</label>
+                <label htmlFor="time">{t('booking_time')}</label>
                 <select 
                   id="time" 
                   name="time" 
@@ -70,25 +72,25 @@ const BookingForm = () => {
                   onChange={handleChange} 
                   required
                 >
-                  <option value="">Select a time</option>
-                  <option value="morning">Morning (9AM - 1PM)</option>
-                  <option value="afternoon">Afternoon (2PM - 6PM)</option>
-                  <option value="evening">Evening (6PM - 9PM)</option>
+                  <option value="">{t('booking_time_select')}</option>
+                  <option value="morning">{t('booking_time_morning')}</option>
+                  <option value="afternoon">{t('booking_time_afternoon')}</option>
+                  <option value="evening">{t('booking_time_evening')}</option>
                 </select>
               </div>
             </div>
             <div className="form-group">
-              <label htmlFor="message">Message (Optional)</label>
+              <label htmlFor="message">{t('booking_msg')}</label>
               <textarea 
                 id="message" 
                 name="message" 
                 rows="4" 
                 value={formData.message} 
                 onChange={handleChange} 
-                placeholder="Briefly describe your symptoms..."
+                placeholder={t('booking_msg_ph')}
               ></textarea>
             </div>
-            <button type="submit" className="btn btn-primary btn-block">Book Now</button>
+            <button type="submit" className="btn btn-primary btn-block">{t('booking_submit')}</button>
           </form>
         </div>
       </div>

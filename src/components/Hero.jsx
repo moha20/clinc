@@ -1,25 +1,26 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import { Calendar, Phone } from 'lucide-react';
 import orthopedic from '../assets/orthopedic.jpg';
 
 const Hero = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="hero-section" id="home">
       <div className="container hero-content">
         <div className="hero-text fade-up">
-          <span className="badge">Welcome to PureLife Ortho</span>
-          <h1>Advanced Orthopedic Care for a Pain-Free Life</h1>
-          <p className="hero-description">
-            Expert diagnosis and cutting-edge treatments from Dr. Mohamed Abdelbasst. We specialize in joint pain, sports injuries, and spine conditions to help you get back to your active lifestyle.
-          </p>
+          <span className="badge">{t('hero_badge')}</span>
+          <h1>{t('hero_title')}</h1>
+          <p className="hero-description">{t('hero_desc')}</p>
           <div className="hero-buttons">
             <a href="#book" className="btn btn-primary btn-icon">
               <Calendar size={18} />
-              Book Appointment
+              {t('hero_book')}
             </a>
             <a href="tel:+201013210377" className="btn btn-secondary btn-icon">
               <Phone size={18} />
-              Call Now
+              {t('hero_call')}
             </a>
           </div>
         </div>

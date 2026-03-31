@@ -1,33 +1,31 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { MapPin, Phone, Mail } from "lucide-react";
 
 const LocationMap = () => {
+  const { t } = useTranslation();
+
   return (
     <section className="section" id="location">
       <div className="container">
-        <h2 className="section-title fade-up">Our Location</h2>
+        <h2 className="section-title fade-up">{t('location_title')}</h2>
         <div className="location-wrapper fade-up">
           <div className="location-info">
-            <h3>Visit Our Clinic</h3>
-            <p className="mb-4">
-              Conveniently located in the heart of the city with ample parking
-              available.
-            </p>
+            <h3>{t('location_subtitle')}</h3>
+            <p className="mb-4">{t('location_desc')}</p>
 
             <div className="contact-item">
               <MapPin className="text-primary" size={24} />
               <div>
-                <strong>Address</strong>
-                <p>
-                  El Gash, Al-Fashn City, Al-Fashn, Beni Suef Governorate 62511
-                </p>
+                <strong>{t('location_address_label')}</strong>
+                <p>{t('location_address_val')}</p>
               </div>
             </div>
 
             <div className="contact-item">
               <Phone className="text-primary" size={24} />
               <div>
-                <strong>Phone</strong>
+                <strong>{t('location_phone_label')}</strong>
                 <p>+20 10 13210377</p>
               </div>
             </div>
@@ -35,7 +33,7 @@ const LocationMap = () => {
             <div className="contact-item">
               <Mail className="text-primary" size={24} />
               <div>
-                <strong>Email</strong>
+                <strong>{t('location_email_label')}</strong>
                 <p>contact@abdelbasstorthoclinic.com</p>
               </div>
             </div>
@@ -47,10 +45,10 @@ const LocationMap = () => {
                 rel="noreferrer"
                 className="btn btn-primary"
               >
-                Get Directions
+                {t('location_directions')}
               </a>
               <a href="tel:+201013210377" className="btn btn-secondary">
-                Call Now
+                {t('hero_call')}
               </a>
             </div>
           </div>
