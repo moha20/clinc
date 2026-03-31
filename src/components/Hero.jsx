@@ -16,9 +16,9 @@ const Hero = () => {
               <Calendar size={18} />
               Book Appointment
             </a>
-            <a href="tel:+201234567890" className="btn btn-secondary btn-icon">
+            <a href="tel:+201013210377" className="btn btn-secondary btn-icon">
               <Phone size={18} />
-              Call Consult
+              Call Now
             </a>
           </div>
         </div>
