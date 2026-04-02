@@ -17,9 +17,32 @@ const BookingForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    
+    // Clinic WhatsApp number
+    const whatsappNumber = '201094949791';
+    
+    // Construct the message
+    const messageBody = `
+*${t('booking_title')}*
+--------------------------
+*${t('booking_name')}:* ${formData.name}
+*${t('booking_phone')}:* ${formData.phone}
+*${t('booking_date')}:* ${formData.date}
+*${t('booking_time')}:* ${t(`booking_time_${formData.time}`)}
+*${t('booking_msg')}:* ${formData.message || 'N/A'}
+    `.trim();
+
+    const encodedMessage = encodeURIComponent(messageBody);
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+    
+    // Open WhatsApp in a new tab
+    window.open(whatsappUrl, '_blank');
+    
+    // Show confirmation and reset form
     alert(t('booking_alert'));
     setFormData({ name: '', phone: '', date: '', time: '', message: '' });
   };
+
 
   return (
     <section className="section bg-light" id="book">
