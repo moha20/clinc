@@ -19,7 +19,6 @@ const About = () => {
           </div>
           <div className="about-text">
             <h3>{t('about_subtitle')}</h3>
-            <p>{t('about_p1')}</p>
             <p>{t('about_p2')}</p>
             
             <div className="features-grid">
@@ -29,7 +28,6 @@ const About = () => {
                 </div>
                 <div>
                   <h4>{t('about_f1_title')}</h4>
-                  <span>{t('about_f1_desc')}</span>
                 </div>
               </div>
               <div className="feature-item">
@@ -38,7 +36,6 @@ const About = () => {
                 </div>
                 <div>
                   <h4>{t('about_f2_title')}</h4>
-                  <span>{t('about_f2_desc')}</span>
                 </div>
               </div>
               <div className="feature-item">
@@ -47,7 +44,6 @@ const About = () => {
                 </div>
                 <div>
                   <h4>{t('about_f3_title')}</h4>
-                  <span>{t('about_f3_desc')}</span>
                 </div>
               </div>
             </div>

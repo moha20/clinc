@@ -18,6 +18,11 @@ const resources = {
       "hero_desc": "Expert diagnosis and cutting-edge treatments from Dr. Mohamed Abdelbasst. We specialize in joint pain, sports injuries, and spine conditions to help you get back to your active lifestyle.",
       "hero_book": "Book Appointment",
       "hero_call": "Call Now",
+
+      // carousel
+      "carousel_title": "Photo Gallery",
+      "expand_image": "Expand",
+
       
       // Services
       "services_title": "Our Expertise",
@@ -116,11 +121,15 @@ const resources = {
       "nav_book": "احجز موعداً",
       
       // Hero
-      "hero_badge": "مرحباً بكم في بيور لايف أورثو",
+      "hero_badge": "مرحباً بكم",
       "hero_title": "رعاية عظام متطورة لحياة خالية من الألم",
       "hero_desc": "تشخيص دقيق وعلاجات حديثة مع دكتور محمد عبدالباسط. نحن متخصصون في آلام المفاصل، الإصابات الرياضية، وحالات العمود الفقري لمساعدتك على العودة لأسلوب حياتك النشط.",
       "hero_book": "احجز موعداً",
       "hero_call": "اتصل الآن",
+
+      // carousel
+      "carousel_title": "معرض الصور ",
+      "expand_image": "عرض",
       
       // Services
       "services_title": "خبراتنا",
@@ -136,15 +145,15 @@ const resources = {
       
       // About
       "about_title": "عن الدكتور محمد",
-      "about_subtitle": "أخصائي جراحة العظام",
-      "about_p1": "يتمتع د. محمد عبدالباسط بخبرة تزيد عن 8 سنوات في جراحة العظام، مع التركيز على تقنيات التدخل المحدود لتغيير المفاصل والإصابات الرياضية.",
-      "about_p2": "يكرس جهوده لتقديم رعاية شخصية، والتأكد من فهم كل مريض لحالته وعلاجاته المتاحة بشكل كامل. يجمع منهجه بين الطب الحديث والتعاطف.",
-      "about_f1_title": "شهادة البورد",
-      "about_f1_desc": "تميز معترف به",
-      "about_f2_title": "+10 آلاف مريض",
-      "about_f2_desc": "تم علاجهم بنجاح",
-      "about_f3_title": "تكنولوجيا حديثة",
-      "about_f3_desc": "أحدث العلاجات",
+      "about_subtitle": "اخصائي جراحات العظام والكسور والمفاصل ومناظير الركبه والكتف وإصابات الملاعب وآلام العمود الفقري ",
+      "about_p2": "يتمتع د. محمد عبدالباسط بخبرة تزيد عن 8 سنوات في جراحة العظام، مع التركيز على تقنيات التدخل المحدود لتغيير المفاصل والإصابات الرياضية.",
+      "about_p1": "ماجستير جراحه العظام والمفاصل عضو الجمعية المصرية لجراحة العظام عضو الجمعية المصرية لمناظير الركبه والكتف مستشفيات التأمين الصحي بني سويف/ الدقي",
+      "about_f1_title": "ماجستير جراحه العظام والمفاصل",
+      "about_f1_desc": "ماجستير جراحه العظام والمفاصل",
+      "about_f2_title": "عضو الجمعية المصرية لجراحة العظام",
+      "about_f2_desc": "عضو الجمعية المصرية لجراحة العظام",
+      "about_f3_title": "عضو الجمعية المصرية لمناظير الركبه والكتف",
+      "about_f3_desc": "عضو الجمعية المصرية لمناظير الركبه والكتف",
       "about_consult": "استشر الآن",
       
       // Working Hours
@@ -173,8 +182,9 @@ const resources = {
       "location_subtitle": "قم بزيارة العيادة",
       "location_desc": "موقع يسهل الوصول إليه في قلب المدينة مع توفر مواقف سيارات واسعة.",
       "location_address_label": "العنوان",
-      "location_address_val": "الجاش، مدينة الفشن، الفشن، محافظة بني سويف 62511",
-      "location_phone_label": "الهاتف",
+      "location_address_val": "الجيش، مدينة الفشن، الفشن، محافظة بني سويف 62511",
+      "location_phone_label2": "رقم الطوارئ",
+      "location_phone_label": "رقم الحجز",
       "location_email_label": "البريد الإلكتروني",
       "location_directions": "احصل على الاتجاهات",
       
@@ -215,7 +225,7 @@ i18n
   .init({
     resources,
     lng: "ar", // default language
-    fallbackLng: "en",
+    fallbackLng: "ar",
     interpolation: {
       escapeValue: false // react already safes from xss
     }

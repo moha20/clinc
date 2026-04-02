@@ -23,7 +23,7 @@ const Footer = () => {
         <div className="footer-contact fade-up" style={{ transitionDelay: '0.2s' }}>
           <h4>{t('footer_contact_title')}</h4>
           <ul>
-            <li>+20 1013210377</li>
+            <li>01094949791</li>
             <li>contact@abdelbasstorthoclinic.com</li>
             <li>{t('location_address_val')}</li>
           </ul>

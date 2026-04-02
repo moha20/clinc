@@ -6,13 +6,13 @@ const WorkingHours = () => {
   const { t } = useTranslation();
 
   const schedule = [
-    { day: t('day_sat'), hours: '12:00 PM - 8:00 PM', status: 'open' },
-    { day: t('day_sun'), hours: '10:00 AM - 6:00 PM', status: 'open' },
-    { day: t('day_mon'), hours: '10:00 AM - 6:00 PM', status: 'open' },
-    { day: t('day_tue'), hours: '2:00 PM - 10:00 PM', status: 'open' },
-    { day: t('day_wed'), hours: '10:00 AM - 6:00 PM', status: 'open' },
-    { day: t('day_thu'), hours: t('status_closed'), status: 'closed' },
-    { day: t('day_fri'), hours: t('status_closed'), status: 'closed' }
+    { day: t('day_sat'), hours: '1:00 م - 10:00 م', status: 'open' },
+    { day: t('day_sun'), hours: t('status_closed'), status: 'closed' },
+    { day: t('day_mon'), hours: '1:00 م - 10:00 م', status: 'open' },
+    { day: t('day_tue'), hours: '1:00 م - 10:00 م', status: 'open' },
+    { day: t('day_wed'), hours: '1:00 م - 10:00 م', status: 'open' },
+    { day: t('day_thu'), hours: '1:00 م - 10:00 م', status: 'open' },
+    { day: t('day_fri'), hours: '1:00 م - 10:00 م', status: 'open' }
   ];
 
   return (

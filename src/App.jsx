@@ -5,6 +5,7 @@ import './index.css';
 
 // We will create these components next
 import Hero from './components/Hero';
+import Carousel from './components/Carousel';
 import About from './components/About';
 import Services from './components/Services';
 import Gallery from './components/Gallery';
@@ -64,17 +65,18 @@ function App() {
       </nav>
 
       {/* Floating Language Switcher */}
-      <button 
+      {/* <button 
         className="floating-lang-btn" 
         onClick={toggleLanguage}
         aria-label="Toggle Language"
       >
         <Globe size={24} />
         <span>{i18n.language === 'en' ? 'عربي' : 'EN'}</span>
-      </button>
+      </button> */}
 
       <main>
         <Hero />
+        <Carousel />
         <Services />
         <About />
         <WorkingHours />

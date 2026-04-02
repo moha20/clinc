@@ -26,7 +26,15 @@ const LocationMap = () => {
               <Phone className="text-primary" size={24} />
               <div>
                 <strong>{t('location_phone_label')}</strong>
-                <p>+20 10 13210377</p>
+                <p>01094949791</p>
+              </div>
+            </div>
+            
+            <div className="contact-item">
+              <Phone className="text-primary" size={24} />
+              <div>
+                <strong>{t('location_phone_label2')}</strong>
+                <p>01145615322</p>
               </div>
             </div>
 
