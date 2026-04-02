@@ -18,7 +18,7 @@ const Hero = () => {
               <Calendar size={18} />
               {t('hero_book')}
             </a>
-            <a href="tel:+201013210377" className="btn btn-secondary btn-icon">
+            <a href="tel:+201094949791" className="btn btn-secondary btn-icon">
               <Phone size={18} />
               {t('hero_call')}
             </a>
