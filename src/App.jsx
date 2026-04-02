@@ -80,7 +80,6 @@ function App() {
         <Services />
         <About />
         <WorkingHours />
-        <Gallery />
         <LocationMap />
         <BookingForm />
       </main>
