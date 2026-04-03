@@ -29,14 +29,14 @@ const Hero = () => {
           </div>
           <div className="hero-stats">
             <div className="stat-item">
-              <span className="stat-number">15+</span>
+              <span className="stat-number">8+</span>
               <span className="stat-label">{t('hero_stats_years')}</span>
             </div>
             <div className="stat-item">
               <span className="stat-divider"></span>
             </div>
             <div className="stat-item">
-              <span className="stat-number">10k+</span>
+              <span className="stat-number">5k+</span>
               <span className="stat-label">{t('hero_stats_patients')}</span>
             </div>
           </div>

@@ -277,7 +277,7 @@ a {
 .hero-section {
   position: relative;
   padding: 120px 0 100px;
-  background-color: var(--bg-main);
+  background-color: #94778b20;
   overflow: hidden;
   min-height: 90vh;
   display: flex;

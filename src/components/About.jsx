@@ -10,7 +10,6 @@ const About = () => {
     <section className="section" id="about">
       <div className="container">
         <h2 className="section-title fade-up">{t('about_title')}</h2>
-        
         <div className="about-content fade-up" style={{ transitionDelay: '0.1s' }}>
           <div className="about-visual">
             <div className="image-stack">
@@ -20,8 +19,8 @@ const About = () => {
                 className="main-profile-img"
               />
               <div className="experience-badge">
-                <span className="years">15+</span>
-                <span className="label">Years of<br/>Excellence</span>
+                <span className="years">8+</span>
+                <span className="label">{t('hero_stats_years')}</span>
               </div>
             </div>
           </div>
