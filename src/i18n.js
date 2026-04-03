@@ -82,6 +82,11 @@ const resources = {
       
       // Booking Form
       "booking_title": "Request an Appointment",
+      "booking_badge": "Appointment",
+      "booking_desc_text": "Book your consultation now. Fill out the form and we will contact you shortly.",
+      "booking_form_header": "Personal Details",
+      "booking_form_subheader": "Please provide your contact information",
+      "booking_privacy_note": "By submitting, you agree to our privacy policy and terms.",
       "booking_name": "Full Name",
       "booking_name_ph": "John Doe",
       "booking_phone": "Phone Number",
@@ -98,10 +103,24 @@ const resources = {
       
       // Social
       "social_title": "Follow Our Journey",
+      "social_badge": "Stay Connected",
       "social_desc": "Stay updated with our latest healthcare tips, patient stories, and clinical announcements.",
       "social_fb": "Facebook",
       "social_ig": "Instagram",
       
+      // Additional Redesign Strings
+      "emergency_label": "Emergency Call:",
+      "hero_badge_rated": "Best Rated 2024",
+      "hero_badge_expert": "Expert Care",
+      "hero_stats_years": "Years Exp.",
+      "hero_stats_patients": "Happy Patients",
+      "about_badge": "Expert Surgeon",
+      "services_subtitle": "Our Expertise",
+      "services_desc": "We providing comprehensive orthopedic care using the latest medical technologies.",
+      "location_badge": "Find Us",
+      "location_desc": "Visit Dr. Mohamed Abdelbasst at his specialized orthopedic clinic.",
+      "carousel_badge": "Our Facility",
+
       // Footer
       "footer_slogan": "Advanced Orthopedic Care for a Pain-Free Life.",
       "footer_quick_links": "Quick Links",
@@ -190,6 +209,11 @@ const resources = {
       
       // Booking Form
       "booking_title": "طلب موعد",
+      "booking_badge": "طلب حجز",
+      "booking_desc_text": "احجز استشارتك الآن. املأ النموذج وسنتصل بك قريباً.",
+      "booking_form_header": "البيانات الشخصية",
+      "booking_form_subheader": "يرجى تقديم معلومات الاتصال الخاصة بك",
+      "booking_privacy_note": "بإرسالك لهذا النموذج، فإنك توافق على سياسة الخصوصية والشروط الخاصة بنا.",
       "booking_name": "الاسم الكامل",
       "booking_name_ph": "أحمد محمد",
       "booking_phone": "رقم الهاتف",
@@ -206,10 +230,24 @@ const resources = {
       
       // Social
       "social_title": "تابع رحلتنا",
+      "social_badge": "ابق على تواصل",
       "social_desc": "ابق على اطلاع بأحدث النصائح الصحية وقصص المرضى والإعلانات السريرية.",
       "social_fb": "فيسبوك",
       "social_ig": "إنستغرام",
       
+      // Additional Redesign Strings
+      "emergency_label": "اتصال طوارئ:",
+      "hero_badge_rated": "الأفضل تقييماً 2024",
+      "hero_badge_expert": "رعاية الخبراء",
+      "hero_stats_years": "سنوات خبرة",
+      "hero_stats_patients": "مريض سعيد",
+      "about_badge": "جراح خبير",
+      "services_subtitle": "خبراتنا",
+      "services_desc": "نحن نقدم رعاية شاملة للعظام باستخدام أحدث التقنيات الطبية.",
+      "location_badge": "تجدنا هنا",
+      "location_desc": "قم بزيارة الدكتور محمد عبدالباسط في عيادته المتخصصة للعظام.",
+      "carousel_badge": "مرافقنا",
+
       // Footer
       "footer_slogan": "رعاية عظام متطورة لحياة خالية من الألم.",
       "footer_quick_links": "روابط سريعة",

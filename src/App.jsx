@@ -51,16 +51,29 @@ function App() {
     <>
       <nav className="navbar">
         <div className="container nav-content">
-          <div className="logo">
-            {t('nav_brand')}
+          <div className="logo-wrapper">
+            <div className="logo-dot"></div>
+            <div className="logo">
+              {t('nav_brand')}
+            </div>
           </div>
           <div className="nav-links">
-            <a href="#services">{t('nav_services')}</a>
-            <a href="#about">{t('nav_about')}</a>
-            <a href="#gallery">{t('nav_gallery')}</a>
-            <a href="#location">{t('nav_location')}</a>
+            <a href="#services" className="nav-link">{t('nav_services')}</a>
+            <a href="#about" className="nav-link">{t('nav_about')}</a>
+            <a href="#gallery" className="nav-link">{t('nav_gallery')}</a>
+            <a href="#location" className="nav-link">{t('nav_location')}</a>
           </div>
-          <a href="#book" className="btn btn-primary">{t('nav_book')}</a>
+          <div className="nav-actions">
+            {/* <button 
+              className="lang-toggle-btn" 
+              onClick={toggleLanguage}
+              aria-label="Toggle Language"
+            >
+              <Globe size={18} />
+              <span>{i18n.language === 'en' ? 'AR' : 'EN'}</span>
+            </button> */}
+            <a href="#book" className="btn btn-primary btn-sm">{t('nav_book')}</a>
+          </div>
         </div>
       </nav>
 

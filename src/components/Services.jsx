@@ -33,18 +33,26 @@ const Services = () => {
   ];
 
   return (
-    <section className="section" id="services">
+    <section className="section bg-light" id="services">
       <div className="container">
         <h2 className="section-title fade-up">{t('services_title')}</h2>
+        <p className="section-desc fade-up">{t('services_desc')}</p>
+        
         <div className="services-grid">
           {servicesList.map((service, index) => (
             <div className="service-card fade-up" style={{ transitionDelay: service.delay }} key={index}>
-              <div className="service-icon">
+              <div className="service-icon-wrapper">
                 {service.icon}
+                <div className="icon-bg"></div>
               </div>
               <h3>{service.title}</h3>
               <p>{service.description}</p>
-              <a href="#book" className="service-link">{t('service_learn_more')}</a>
+              <div className="service-footer">
+                <a href="#book" className="service-link-modern">
+                  {t('service_learn_more')}
+                  <span className="arrow">→</span>
+                </a>
+              </div>
             </div>
           ))}
         </div>

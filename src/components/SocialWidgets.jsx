@@ -10,18 +10,19 @@ const SocialWidgets = () => {
     <>
       <section className="section bg-light" id="social">
         <div className="container text-center">
+          <span className="section-subtitle fade-up">{t('social_badge')}</span>
           <h2 className="section-title fade-up">{t('social_title')}</h2>
-          <p className="mb-4 fade-up" style={{ transitionDelay: '0.1s' }}>
+          <p className="section-desc fade-up">
             {t('social_desc')}
           </p>
-          <div className="social-links fade-up" style={{ transitionDelay: '0.2s' }}>
-            <a href="https://www.facebook.com/share/1GrMRtMndj" target="_blank" rel="noreferrer" className="social-btn facebook">
+          <div className="social-links-modern fade-up">
+            <a href="https://www.facebook.com/share/1GrMRtMndj" target="_blank" rel="noreferrer" className="social-btn-modern fb">
               <FaFacebook size={24} />
-              <span>{t('social_fb')}</span>
+              <span>Facebook</span>
             </a>
-            <a href="https://www.instagram.com/dr.mohamed.orthopedic.clinic" target="_blank" rel="noreferrer" className="social-btn instagram">
+            <a href="https://www.instagram.com/dr.mohamed.orthopedic.clinic" target="_blank" rel="noreferrer" className="social-btn-modern ig">
               <FaInstagram size={24} />
-              <span>{t('social_ig')}</span>
+              <span>Instagram</span>
             </a>
           </div>
         </div>
