@@ -49,6 +49,7 @@ function App() {
 
   return (
     <>
+      <div className="scanline-overlay"></div>
       <nav className="navbar">
         <div className="container nav-content">
           <div className="logo-wrapper">
